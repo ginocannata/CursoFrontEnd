@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    min-height: 10vh;
+    padding: 1 rem;
+}
+
+#title {
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+nav {
+    height: 5vh;
+    padding: 0.8rem;
+    text-align: right;
+
+}
+
+nav a {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+a[href="#home"] {
+    background-color: green;
+}
+
+a[href="#About"] {
+    background-color: green;
+}
+
+a[href="#Contact"] {
+    background-color: green;
+}
+
+
+#titulo {
+    width: 100%;
+}
+
+#icon {
+    width: 15%;
+    display: inline-block;
+}
+
+
+
+h2 {
+    text-align: center;
+
+
+    border-style: solid;
+
+}
+
+#img1 {
+    width: 100%;
+    height: 50%;
+}
+
+
+article {
+
+    margin: 1em;
+    padding: 1em;
+    
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+#foto {
+    width: 30%;
+    display: inline-block;
+    margin: 50px;
+
+}
