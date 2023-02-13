@@ -42,6 +42,12 @@ a[href="#About"] {
 a[href="#Contact"] {
     background-color: green;
 }
+a[href="#rules"] {
+    background-color: green;
+}
+a[href="#schedule"] {
+    background-color: green;
+}
 
 
 #titulo {
@@ -85,4 +91,22 @@ article {
     display: inline-block;
     margin: 50px;
 
+}
+#rules{
+    text-align: center;
+}
+li{
+    padding: 1em;
+    margin: 1em;
+}
+div{
+    display: flex;
+    padding: 1rem;
+}
+div h3{
+    flex-direction: row;
+    margin: 1em;
+}
+div ul{
+    flex-direction: column ;
 }
