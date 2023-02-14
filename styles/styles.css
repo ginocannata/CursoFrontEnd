@@ -31,7 +31,7 @@ nav a {
 
 }
 
-a[href="#home"] {
+a[href="/CursoFrontEnd/pages/home.html"] {
     background-color: green;
 }
 
@@ -42,10 +42,10 @@ a[href="#About"] {
 a[href="#Contact"] {
     background-color: green;
 }
-a[href="#rules"] {
+a[href="#/CursoFrontEnd/pages/rules.html"] {
     background-color: green;
 }
-a[href="#schedule"] {
+a[href="/CursoFrontEnd/pages/schedule.html"] {
     background-color: green;
 }
 
@@ -92,21 +92,37 @@ article {
     margin: 50px;
 
 }
-#rules{
-    text-align: center;
+div{
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1em;
+    align-items: center;
+
 }
-li{
+div p{
     padding: 1em;
     margin: 1em;
 }
-div{
-    display: flex;
-    padding: 1rem;
-}
-div h3{
-    flex-direction: row;
-    margin: 1em;
-}
+
 div ul{
-    flex-direction: column ;
+    margin: 1em;
+    padding: 1em;
 }
+.schedule{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+
+}
+td, th{
+    padding: .5rem;
+}
+.scheduletext{
+    display: flex;
+    align-items: baseline;
+}
+
+
+
