@@ -42,6 +42,7 @@ a:hover{
 
 
 
+
 #titulo {
     width: 100%;
 }
@@ -128,19 +129,16 @@ form{
     width: 60vw;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    align-items: baseline;
 }
 label{
     display: flex;
     margin: 0.5rem;
     padding: 0.5em;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-input{
-    
     
 }
+
 
 fieldset{
     border: 0;
